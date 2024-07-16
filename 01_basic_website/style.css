@@ -1,0 +1,83 @@
+/* 
+Small Reset 
+*/
+
+
+*::before, *::after, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hotpink;
+  font-family: sans-serif;
+}
+
+h1 ,h2, h3 {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+nav {
+  background-color: red;
+}
+
+nav a {
+  color: green;
+}
+
+nav > ul {
+  border: solid 2px black;
+}
+
+article {
+  font-size: 32px;
+}
+
+article p {
+  font-size: 3rem;
+}
+
+h2 ~ article {
+  background-color: yellow;
+
+}
+
+h2 + article {
+  background-color: aqua;
+}
+
+small[class] {
+  color: blueviolet;
+}
+
+.legal {
+  color: blue;
+}
+
+/* #main-section {
+  color: white;
+} */
+ 
+a:hover {
+  cursor: crosshair; 
+  color: blue;
+}
+
+/* % */
+
+.units {
+  height: 500px;
+  background-color: crimson;
+}
+
+.left, .right {
+  display: inline-block;
+  border: dashed 2px blue;
+  height: 100%;
+  width: 30%;
+}
