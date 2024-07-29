@@ -1,0 +1,57 @@
+/* Small Reset */
+*::before, *::after, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  border: solid 1px #fff;
+  position: relative;
+} 
+
+.item {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 166, 0, 0.9);
+  border: solid 1px #ff0000;
+}
+
+.relative {
+  position: relative;
+  right: 50px;
+  bottom: 20px;
+}
+
+.absolute {
+  position: absolute;
+  background-color:rgba(82, 226, 248, 0.783);
+  right: 0;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  background-color:rgba(82, 248, 132, 0.783);
+  top: 0;
+  left: 50%;
+}
+
+.center-me {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(255, 105, 180, 0.792);
+  transform: translate(-50%, -50%);
+  
+}
