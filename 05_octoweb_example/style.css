@@ -65,7 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-header > div {
   height: 90vh;
-  background: linear-gradient(#508C9B, #201E43);
+  /* background: linear-gradient(#508C9B, #201E43); */
+  background-image: url('images/header_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,0 +1,24 @@
+.students {
+  border-collapse: collapse;
+}
+
+.students tr:nth-child(1) {
+  background: #4e4e4e;
+  color: white;
+}
+
+.students tr:nth-child(even) {
+  background: #a9a9a9;
+}
+
+.students th, .students td {
+  border: solid 1px black;  
+}
+
+.plan {
+  border-collapse: collapse;
+}
+
+.plan th, .plan td {
+  border: solid 1px black;  
+}

@@ -5,14 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Box Shadow</title>
   <style>
-    
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .image-stack {
       padding: 2rem;
       border: solid 1px red;
       box-shadow: 
-      0 0 0 1rem black,
-      0 0 0 2rem white,
-      0 0 0 3rem black
+      5px 5px 10px 0 black,
+      10px 10px 0 0 white,
+      15px 15px 10px 0 black,
+      20px 20px 0 0 white,
+      25px 25px 10px 0 black,
+      30px 30px 0 0 white,
+      35px 35px 10px 0 black
       ;
     }
   </style>
