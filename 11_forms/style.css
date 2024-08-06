@@ -1,0 +1,35 @@
+/* Small Reset */
+*::before, *::after, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+form {
+  min-width: 500px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 15px;
+}
+
+form input, textarea{
+  padding: 0.5rem;
+}
+
+.sub-btn {
+  align-self: flex-start;
+  padding: 0.5rem 0.8rem;
+}
+
